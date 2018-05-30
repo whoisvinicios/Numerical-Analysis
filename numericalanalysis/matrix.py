@@ -56,3 +56,10 @@ class Matrix:
     def __mul__(self, other):
         if self._rows != other.cols:
             raise DimensionErrorException("Rows must be equals to cols", "Dimension Error")
+
+    def __eq__(self, other):
+        for x in range(self._rows):
+            for y in range(self._cols):
+                if self._matrix[x][y] != other[x][y]:
+                    return False
+        return True

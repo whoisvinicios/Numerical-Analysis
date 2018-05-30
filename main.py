@@ -10,11 +10,16 @@ def main():
             [2, 1, -1],
             [2, -1, 1]])
 
-        b = Matrix([[-2, 1, 3]])
+        # b = Matrix([[-2, 1, 3]])
+        b = [-2, 1, 3]
 
-        L, U = LU.factorize(A, b)
+        L, U = LU.factorize(A)
+        y, x = LU.solve(L, U, b)
         print(L)
         print(U)
+
+        print(y)
+        print(x)
     except DimensionErrorException as e:
         print(e)
 
