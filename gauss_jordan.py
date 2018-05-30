@@ -1,0 +1,2 @@
+class GaussJordan:
+    pass
