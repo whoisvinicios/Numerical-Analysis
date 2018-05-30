@@ -1,6 +1,6 @@
 from copy import deepcopy
 
-from matrix import Matrix
+from numericalanalysis.matrix import Matrix
 
 
 class MatrixHelper:

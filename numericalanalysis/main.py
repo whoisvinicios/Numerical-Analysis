@@ -1,6 +1,6 @@
-from dimension_exception import DimensionErrorException
-from lu import LU
-from matrix import Matrix
+from numericalanalysis.dimension_exception import DimensionErrorException
+from numericalanalysis.lu import LU
+from numericalanalysis.matrix import Matrix
 
 
 def main():

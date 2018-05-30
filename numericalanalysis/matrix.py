@@ -1,6 +1,6 @@
 from itertools import chain
 
-from dimension_exception import DimensionErrorException
+from numericalanalysis.dimension_exception import DimensionErrorException
 
 
 class Matrix:

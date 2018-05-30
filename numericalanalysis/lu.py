@@ -1,7 +1,6 @@
 
-from dimension_exception import DimensionErrorException
-from matrix import Matrix
-from matrix_helper import MatrixHelper
+from numericalanalysis.dimension_exception import DimensionErrorException
+from numericalanalysis.matrix_helper import MatrixHelper
 
 
 class LU:
