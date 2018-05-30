@@ -56,13 +56,3 @@ class Matrix:
     def __mul__(self, other):
         if self._rows != other.cols:
             raise DimensionErrorException("Rows must be equals to cols", "Dimension Error")
-
-
-
-
-a = Matrix([[1, 0], [2, -1], [4, 8]])
-b = Matrix([[4, 3], [0, 5], [9, -7]])
-
-c = a + b
-
-print(c)
