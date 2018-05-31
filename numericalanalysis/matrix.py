@@ -54,8 +54,11 @@ class Matrix:
         return m
 
     def __mul__(self, other):
-        if self._rows != other.cols:
+        if self._cols != other.rows:
             raise DimensionErrorException("Rows must be equals to cols", "Dimension Error")
+        x = self.matrix
+        y = other.matrix
+        return [[sum(x * y for x, y in zip(x_row, y_col)) for y_col in zip(*y)] for x_row in x]
 
     def __eq__(self, other):
         for x in range(self._rows):
