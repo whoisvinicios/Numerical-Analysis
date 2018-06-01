@@ -1,9 +1,6 @@
 from copy import deepcopy
 
 from numericalanalysis.matrix import Matrix
-from numericalanalysis.dimension_exception import DimensionErrorException
-
-import itertools
 
 
 class MatrixHelper:

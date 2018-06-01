@@ -42,18 +42,34 @@ class Matrix:
         return chain.from_iterable(self._matrix)
 
     def __add__(self, other):
+        """
+        Adds two matrix
+        :param other:
+        :return: added matrix
+        """
         if self._shape != other.shape:
             raise DimensionErrorException()
         m = [[self._matrix[x][y] + other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
         return m
 
     def __sub__(self, other):
+        """
+        Subtract two matrix
+        :param other:
+        :return: matrix subtracted
+        """
         if self._shape != other.shape:
             raise DimensionErrorException()
         m = [[self._matrix[x][y] - other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
         return m
 
     def __mul__(self, other):
+        """
+        Multiplies two matrix, the number of columns of the first matrix must be equal to the number of rows of the
+        second matrix
+        :param other: Matrix
+        :return: matrix multiplied
+        """
         if self._cols != other.rows:
             raise DimensionErrorException("Rows must be equals to cols", "Dimension Error")
         x = self.matrix
