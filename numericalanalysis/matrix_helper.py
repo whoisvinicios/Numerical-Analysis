@@ -8,6 +8,7 @@ import itertools
 
 class MatrixHelper:
     """This class constains some helper methods for Matrix class"""
+
     @staticmethod
     def copy(matrix):
         return deepcopy(matrix)
