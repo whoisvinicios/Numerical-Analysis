@@ -1,53 +1,42 @@
 from numericalanalysis.dimension_exception import DimensionErrorException
-from numericalanalysis.matrix_helper import MatrixHelper
+from numericalanalysis.matrix_helper import *
 
 
 class LU:
-    """Contais the logic to perform the Lower and Upper decomposition"""
+    """Contais the logic to perform the l and u decomposition"""
 
     @staticmethod
-    def factorize(A):
+    def factorize(matrix):
         """Perform the LU decomposition to the given matrix"""
 
-        if A.rows != A.cols:
+        if matrix.rows != matrix.cols:
             raise DimensionErrorException("Dimension Error", "The rows and column need to be equals")
 
-        n = A.shape[0]
-        L = MatrixHelper.identity(n)
-        U = MatrixHelper.copy(A)
+        n = matrix.shape[0]
+
+        l = identity(n)
+        u = copy(matrix)
+
+        p = pivot(matrix)
+        pa = p * matrix
+
+    #     for j in range(n):
+    #         for i in range(j + 1, n):
+    #             l[i][j] = u[i][j] / u[j][j]
+    #
+    #             for k in range(j + 1, n):
+    #                 u[i][k] = u[i][k] - l[i][j] * u[j][k]
+    #             u[i][j] = 0
+    #
 
         for j in range(n):
-            for i in range(j + 1, n):
-                L[i][j] = U[i][j] / U[j][j]
 
-                for k in range(j + 1, n):
-                    U[i][k] = U[i][k] - L[i][j] * U[j][k]
-                U[i][j] = 0
+            for i in range(j + 1):
+                s1 = sum(u[k][j] * l[i][k] for k in range(i))
+                u[i][j] = pa[i][j] - s1
 
-        return L, U
+            for i in range(j, n):
+                s2 = sum(u[k][j] * l[i][k] for k in range(j))
+                l[i][j] = (pa[i][j] - s2) / u[j][j]
 
-    @staticmethod
-    def solve(L, U, b):
-        """
-        TODO: Fix that
-        """
-        n = L.shape[0]
-
-        y = MatrixHelper.zeros_vector(n)
-        x = MatrixHelper.zeros_vector(n)
-
-        y[0] = b[0] / L[0][0]
-        for i in range(1, n):
-            sum = 0.0
-            for j in range(i):
-                sum += L[i][j] * y[j]
-            y[i] = (b[i] - sum) / L[i][i]
-
-        x[n - 1] = y[n - 1] / U[n - 1][n - 1]
-        for i in range(n - 1, -1, -1):
-            sum = y[i]
-            for j in range(i + 1, n):
-                sum = sum - U[i][j] * x[j]
-            x[i] = sum / U[i][i]
-
-        return y, x
+        return p, l, u

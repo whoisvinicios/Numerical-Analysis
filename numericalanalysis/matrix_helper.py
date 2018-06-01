@@ -3,23 +3,31 @@ from copy import deepcopy
 from numericalanalysis.matrix import Matrix
 
 
-class MatrixHelper:
-    """This class constains some helper methods for Matrix class"""
+def copy(matrix):
+    return deepcopy(matrix)
 
-    @staticmethod
-    def copy(matrix):
-        return deepcopy(matrix)
 
-    @staticmethod
-    def identity(shape):
-        eye = [[1.0 if x == y else 0.0 for x in range(shape)] for y in range(shape)]
-        m = Matrix(eye)
-        return m
+def identity(shape):
+    eye = [[float(x == y) for x in range(shape)] for y in range(shape)]
+    m = Matrix(eye)
+    return m
 
-    @staticmethod
-    def zeros_vector(n):
-        return [0.0 for i in range(n)]
+
+def zeros_vector(n):
+    return [0.0 for i in range(n)]
 
 
 def determinant(matrix):
     pass
+
+
+def pivot(matrix):
+    n = matrix.shape[0]
+    identity_matrix = identity(n)
+
+    for j in range(n):
+        row = max(range(j, n), key=lambda i: abs(matrix[i][j]))
+        if j != row:
+            identity_matrix.matrix[j] = identity_matrix.matrix[row]
+            identity_matrix.matrix[row] = identity_matrix.matrix[j]
+    return identity_matrix

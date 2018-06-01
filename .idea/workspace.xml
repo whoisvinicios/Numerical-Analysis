@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c972f3a3-2f20-4024-b81b-2eda4d42729a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/numericalanalysis/linear_solver.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/lu_test.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change beforePath="$PROJECT_DIR$/numericalanalysis/gauss_jordan.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/numericalanalysis/lu.py" afterPath="$PROJECT_DIR$/numericalanalysis/lu.py" />
       <change beforePath="$PROJECT_DIR$/numericalanalysis/matrix.py" afterPath="$PROJECT_DIR$/numericalanalysis/matrix.py" />
       <change beforePath="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" afterPath="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" />
     </list>
@@ -14,20 +21,25 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NumericalAnalysis$vector.coverage" NAME="vector Coverage Results" MODIFIED="1527726977817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numericalanalysis" />
-    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_in_matrix_operations_test_py.coverage" NAME="Unittests in matrix_operations_test.py Coverage Results" MODIFIED="1527821961448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_in_matrix_operations_test_py.coverage" NAME="Unittests in matrix_operations_test.py Coverage Results" MODIFIED="1527854006168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$matrix_helper.coverage" NAME="matrix_helper Coverage Results" MODIFIED="1527855758554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numericalanalysis" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1527854036729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_matrix_operations_test_MatrixOperationsTest_test_matrix_dimension_error.coverage" NAME="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error Coverage Results" MODIFIED="1527821977147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/NumericalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1527719914957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1527856708834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_lu_test_LUTest.coverage" NAME="Unittests for lu_test.LUTest Coverage Results" MODIFIED="1527854174341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_lu_test_LUTest_test_x_lu_decomp.coverage" NAME="Unittests for lu_test.LUTest.test_x_lu_decomp Coverage Results" MODIFIED="1527854209842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_matrix_operations_test_MatrixOperationsTest_test_matrix_multiplication.coverage" NAME="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_multiplication Coverage Results" MODIFIED="1527821194012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_matrix_operations_test_MatrixOperationsTest.coverage" NAME="Unittests for matrix_operations_test.MatrixOperationsTest Coverage Results" MODIFIED="1527822125755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1527777326402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_in_lu_test_py.coverage" NAME="Unittests in lu_test.py Coverage Results" MODIFIED="1527854019591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="matrix.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="408">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -47,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gauss_jordan.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/numericalanalysis/gauss_jordan.py">
+      <file leaf-file-name="linear_solver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numericalanalysis/linear_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -60,8 +72,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
               </folding>
@@ -72,10 +84,22 @@
       <file leaf-file-name="lu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/lu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="112">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lu_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/lu_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +108,8 @@
       <file leaf-file-name="matrix_helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="480">
+              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -122,6 +146,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Matrix</find>
+      <find>MatrixH</find>
+      <find>identity_matrix</find>
+      <find>upper</find>
+      <find>lower</find>
+      <find>pivot_matrix</find>
+      <find>pivoted_x_matrix</find>
+      <find>l</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -134,13 +170,16 @@
         <option value="$PROJECT_DIR$/lu.py" />
         <option value="$PROJECT_DIR$/matrix_helper.py" />
         <option value="$PROJECT_DIR$/matrix.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/test/test_matrix_operations.py" />
         <option value="$PROJECT_DIR$/test/matrix_operations_test.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/dimension_exception.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/vector.py" />
-        <option value="$PROJECT_DIR$/numericalanalysis/lu.py" />
+        <option value="$PROJECT_DIR$/linear_solver.py" />
+        <option value="$PROJECT_DIR$/test/lu_test.py" />
+        <option value="$PROJECT_DIR$/numericalanalysis/linear_solver.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/numericalanalysis/lu.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/matrix.py" />
       </list>
     </option>
@@ -151,11 +190,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
-    <option name="y" value="85" />
-    <option name="width" value="1681" />
-    <option name="height" value="996" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,8 +243,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/numericalanalysis" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -221,8 +259,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for matrix_operations_test.MatrixOperationsTest">
-    <configuration name="matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -235,13 +273,32 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="NumericalAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numericalanalysis/matrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for matrix_operations_test.MatrixOperationsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="matrix_helper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/numericalanalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NumericalAnalysis" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for lu_test.LUTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -253,10 +310,10 @@
       <module name="NumericalAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;matrix_operations_test.MatrixOperationsTest&quot;" />
+      <option name="_new_target" value="&quot;lu_test.LUTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for lu_test.LUTest.test_x_lu_decomp" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -268,10 +325,10 @@
       <module name="NumericalAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error&quot;" />
+      <option name="_new_target" value="&quot;lu_test.LUTest.test_x_lu_decomp&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_multiplication" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -283,38 +340,23 @@
       <module name="NumericalAnalysis" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;matrix_operations_test.MatrixOperationsTest.test_matrix_multiplication&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests in matrix_operations_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="NumericalAnalysis" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/matrix_operations_test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.matrix" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_multiplication" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in matrix_operations_test.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for matrix_operations_test.MatrixOperationsTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for lu_test.LUTest" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for lu_test.LUTest.test_x_lu_decomp" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main" />
+      <item index="4" class="java.lang.String" itemvalue="Python.matrix_helper" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for matrix_operations_test.MatrixOperationsTest" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in matrix_operations_test.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_multiplication" />
-        <item index="4" class="java.lang.String" itemvalue="Python.matrix" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.matrix_helper" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for lu_test.LUTest.test_x_lu_decomp" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for lu_test.LUTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test" />
       </list>
     </recent_temporary>
   </component>
@@ -335,38 +377,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_matrix_operations_test_MatrixOperationsTest - 2018.06.01 at 00h 02m 05s.xml">
-      <configuration name="Unittests for matrix_operations_test.MatrixOperationsTest" configurationId="tests" />
+    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 52m 31s.xml">
+      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_matrix_operations_test_MatrixOperationsTest_test_matrix_dimension_error - 2018.05.31 at 23h 54m 53s.xml">
-      <configuration name="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error" configurationId="tests" />
+    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 54m 18s.xml">
+      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_matrix_operations_test_MatrixOperationsTest_test_matrix_dimension_error - 2018.05.31 at 23h 59m 38s.xml">
-      <configuration name="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error" configurationId="tests" />
+    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 54m 59s.xml">
+      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_matrix_operations_test_MatrixOperationsTest_test_matrix_multiplication - 2018.05.31 at 23h 46m 34s.xml">
-      <configuration name="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_multiplication" configurationId="tests" />
+    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 56m 14s.xml">
+      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_matrix_operations_test_py - 2018.05.31 at 23h 47m 39s.xml">
+    <history-entry file="Unittests_for_lu_test_LUTest_test_x_lu_decomp - 2018.06.01 at 08h 56m 50s.xml">
+      <configuration name="Unittests for lu_test.LUTest.test_x_lu_decomp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lu_test_py - 2018.06.01 at 08h 52m 42s.xml">
+      <configuration name="Unittests in lu_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lu_test_py - 2018.06.01 at 08h 53m 11s.xml">
+      <configuration name="Unittests in lu_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_lu_test_py - 2018.06.01 at 08h 53m 39s.xml">
+      <configuration name="Unittests in lu_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_matrix_operations_test_py - 2018.06.01 at 08h 53m 26s.xml">
       <configuration name="Unittests in matrix_operations_test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_matrix_operations_test_py - 2018.05.31 at 23h 55m 58s.xml">
-      <configuration name="Unittests in matrix_operations_test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_matrix_operations_test_py - 2018.05.31 at 23h 59m 21s.xml">
-      <configuration name="Unittests in matrix_operations_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2018.06.01 at 08h 53m 56s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25641027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -390,7 +441,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -418,31 +471,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/lu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" column="19" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/numericalanalysis/gauss_jordan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,10 +489,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/linear_solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/lu_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/lu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="480">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -468,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        <state relative-caret-position="408">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>

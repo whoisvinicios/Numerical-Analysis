@@ -14,7 +14,10 @@ class Matrix:
 
     @property
     def matrix(self):
-        """Get the matrix"""
+        """
+        Get the matrix
+        :return: the matrix attribute
+        """
         return self._matrix
 
     @property

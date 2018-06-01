@@ -13,7 +13,7 @@ def main():
         # b = Matrix([[-2, 1, 3]])
         b = [-2, 1, 3]
 
-        L, U = LU.factorize(A)
+        P, L, U = LU.factorize(A)
         y, x = LU.solve(L, U, b)
         print(L)
         print(U)
