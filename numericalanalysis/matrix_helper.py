@@ -18,6 +18,7 @@ def zeros_vector(n):
 
 
 def determinant(matrix):
+    # TODO implement det function
     pass
 
 

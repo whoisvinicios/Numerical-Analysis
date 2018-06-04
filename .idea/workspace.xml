@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c972f3a3-2f20-4024-b81b-2eda4d42729a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numericalanalysis/matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/numericalanalysis/matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="matrix.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="matrix.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+            <state relative-caret-position="607">
+              <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -97,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="matrix_helper.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="matrix_helper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="300">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -171,10 +170,10 @@
         <option value="$PROJECT_DIR$/linear_solver.py" />
         <option value="$PROJECT_DIR$/test/lu_test.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/linear_solver.py" />
-        <option value="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/lu.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/matrix.py" />
+        <option value="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" />
       </list>
     </option>
   </component>
@@ -635,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/numericalanalysis/dimension_exception.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -671,10 +660,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="85" column="31" lean-forward="true" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="607">
+          <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
