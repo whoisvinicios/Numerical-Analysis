@@ -4,9 +4,16 @@ from numericalanalysis.dimension_exception import DimensionErrorException
 
 
 class Matrix:
-    """This class represents a Matrix"""
+    """
+    This class represents a Matrix and implements some
+    mathematical operations that can be done with matrixes
+    """
 
     def __init__(self, matrix):
+        """
+        Constructor
+        :param matrix: matrix in format [[1, 2, 3], [3, 2, 1]]
+        """
         self._matrix = matrix
         self._rows = len(matrix)
         self._cols = len(matrix[0])
@@ -38,6 +45,9 @@ class Matrix:
     def __repr__(self):
         return str(self._matrix)
 
+    def __str__(self):
+        return str(self._matrix)
+
     def __getitem__(self, key):
         return self._matrix[key]
 
@@ -52,7 +62,8 @@ class Matrix:
         """
         if self._shape != other.shape:
             raise DimensionErrorException()
-        return [[self._matrix[x][y] + other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
+        m = Matrix([[self._matrix[x][y] + other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)])
+        return m
 
     def __sub__(self, other):
         """
@@ -62,7 +73,8 @@ class Matrix:
         """
         if self._shape != other.shape:
             raise DimensionErrorException()
-        return [[self._matrix[x][y] - other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
+        m = Matrix([[self._matrix[x][y] - other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)])
+        return m
 
     def __mul__(self, other):
         """
@@ -75,7 +87,8 @@ class Matrix:
             raise DimensionErrorException("Rows must be equals to cols", "Dimension Error")
         x = self.matrix
         y = other.matrix
-        return [[sum(x * y for x, y in zip(x_row, y_col)) for y_col in zip(*y)] for x_row in x]
+        m = Matrix([[sum(x * y for x, y in zip(x_row, y_col)) for y_col in zip(*y)] for x_row in x])
+        return m
 
     def __eq__(self, other):
         """
