@@ -9,8 +9,7 @@ def copy(matrix):
 
 def identity(shape):
     eye = [[float(x == y) for x in range(shape)] for y in range(shape)]
-    m = Matrix(eye)
-    return m
+    return Matrix(eye)
 
 
 def zeros_vector(n):
