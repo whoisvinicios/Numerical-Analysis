@@ -5,7 +5,7 @@ from numericalanalysis.matrix import Matrix
 
 def main():
     try:
-        A = Matrix([
+        a = Matrix([
             [1, 1, 1],
             [2, 1, -1],
             [2, -1, 1]])
@@ -13,10 +13,10 @@ def main():
         # b = Matrix([[-2, 1, 3]])
         b = [-2, 1, 3]
 
-        P, L, U = LU.factorize(A)
-        y, x = LU.solve(L, U, b)
-        print(L)
-        print(U)
+        p, l, u = LU.factorize(a)
+        y, x = LU.solve(l, u, b)
+        print(l)
+        print(u)
 
         print(y)
         print(x)

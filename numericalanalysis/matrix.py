@@ -52,8 +52,7 @@ class Matrix:
         """
         if self._shape != other.shape:
             raise DimensionErrorException()
-        m = [[self._matrix[x][y] + other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
-        return m
+        return [[self._matrix[x][y] + other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
 
     def __sub__(self, other):
         """
@@ -63,8 +62,7 @@ class Matrix:
         """
         if self._shape != other.shape:
             raise DimensionErrorException()
-        m = [[self._matrix[x][y] - other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
-        return m
+        return [[self._matrix[x][y] - other.matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
 
     def __mul__(self, other):
         """
