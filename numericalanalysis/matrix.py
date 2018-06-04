@@ -80,6 +80,11 @@ class Matrix:
         return [[sum(x * y for x, y in zip(x_row, y_col)) for y_col in zip(*y)] for x_row in x]
 
     def __eq__(self, other):
+        """
+        Compare two matrix
+        :param other:
+        :return:
+        """
         for x in range(self._rows):
             for y in range(self._cols):
                 if self._matrix[x][y] != other[x][y]:
