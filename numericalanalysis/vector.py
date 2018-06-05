@@ -1,17 +1,8 @@
-from numericalanalysis.matrix import Matrix
+class Vector:
 
-
-class Vector(Matrix):
-
-    def __init__(self, vector, dtype="row"):
-        super().__init__(vector)
-
-        self._type = dtype
-
-        if dtype == "row":
-            self._shape = (len(vector), 0)
-        else:
-            self._shape = (0, len(vector))
+    def __init__(self, vector):
+        self._vector = vector
+        self._len = len(vector)
 
     @property
     def shape(self):

@@ -83,12 +83,19 @@ class Matrix:
         :param other: Matrix
         :return: matrix multiplied
         """
-        if self._cols != other.rows:
-            raise DimensionErrorException("Rows must be equals to cols", "Dimension Error")
-        x = self.matrix
-        y = other.matrix
-        m = Matrix([[sum(x * y for x, y in zip(x_row, y_col)) for y_col in zip(*y)] for x_row in x])
-        return m
+
+        # TODO implements multiplication by scalar
+        # FIXME
+        if type(other) is int:
+            matrix = [[other * self._matrix[x][y] for y in range(self._cols)] for x in range(self._rows)]
+            return Matrix(matrix)
+        else:
+            if self._cols != other.rows:
+                raise DimensionErrorException("Rows must be equals to cols", "Dimension Error")
+            x = self.matrix
+            y = other.matrix
+            matrix = [[sum(x * y for x, y in zip(x_row, y_col)) for y_col in zip(*y)] for x_row in x]
+            return Matrix(matrix)
 
     def __eq__(self, other):
         """
@@ -101,3 +108,9 @@ class Matrix:
                 if self._matrix[x][y] != other[x][y]:
                     return False
         return True
+
+a = Matrix([[1, 2, 3], [3, 2, 1]])
+c = Matrix([[1, 2, 3], [3, 2, 1]])
+b = 2 * a
+
+print(b)
