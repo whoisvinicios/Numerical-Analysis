@@ -1,5 +1,5 @@
 from numericalanalysis.dimension_exception import DimensionErrorException
-from numericalanalysis.lu import LU
+from numericalanalysis.lu import lu
 from numericalanalysis.matrix import Matrix
 
 
@@ -13,8 +13,8 @@ def main():
         # b = Matrix([[-2, 1, 3]])
         b = [-2, 1, 3]
 
-        p, l, u = LU.factorize(a)
-        y, x = LU.solve(l, u, b)
+        p, l, u = lu(a)
+        # y, x = solve(l, u, b)
         print(l)
         print(u)
 
