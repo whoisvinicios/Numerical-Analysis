@@ -80,6 +80,16 @@ class Matrix:
         """
         Multiplies two matrix, the number of columns of the first matrix must be equal to the number of rows of the
         second matrix
+
+        iterative implementation
+
+        for i in range(len(X)):
+            # iterate through columns of Y
+            for j in range(len(Y[0])):
+                # iterate through rows of Y
+                    for k in range(len(Y)):
+                        result[i][j] += X[i][k] * Y[k][j]
+
         :param other: Matrix
         :return: matrix multiplied
         """
