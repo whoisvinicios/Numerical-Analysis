@@ -1,25 +1,15 @@
 from numericalanalysis.dimension_exception import DimensionErrorException
-from numericalanalysis.lu import lu
+from numericalanalysis.lu import lu_decomposition
 from numericalanalysis.matrix import Matrix
 
 
 def main():
     try:
-        a = Matrix([
-            [1, 1, 1],
-            [2, 1, -1],
-            [2, -1, 1]])
+        a = Matrix([[1, 1, 1], [2, 1, -1], [2, -1, 1]])
 
-        # b = Matrix([[-2, 1, 3]])
-        b = [-2, 1, 3]
-
-        p, l, u = lu(a)
-        # y, x = solve(l, u, b)
+        l, u = lu_decomposition(a)
         print(l)
         print(u)
-
-        print(y)
-        print(x)
     except DimensionErrorException as e:
         print(e)
 

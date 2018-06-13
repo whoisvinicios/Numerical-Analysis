@@ -26,9 +26,31 @@ Definition:
 """
 
 
-def lu(matrix):
+def lu_decomposition(matrix):
     """
     Perform the LU decomposition to the given matrix
+    :param matrix: Matrix
+    :return: Pivot matrix, Lower triangular matrix, Upper triangular matrix
+    """
+    if matrix.rows != matrix.cols:
+        raise DimensionErrorException("Dimension Error", "The rows and column need to be equals")
+
+    n = matrix.shape[0]
+    l = identity(n)
+    u = copy(matrix)
+
+    for j in range(n):
+        for i in range(j + 1, n):
+            l[i][j] = u[i][j] / u[j][j]
+            for k in range(j + 1, n):
+                u[i][k] = u[i][k] - l[i][j] * u[j][k]
+            u[i][j] = 0
+    return l, u
+
+
+def lu_decomposition_with_pivot(matrix):
+    """
+    Perform the LU decomposition with pivot to the given matrix
     :param matrix: Matrix
     :return: Pivot matrix, Lower triangular matrix, Upper triangular matrix
     """
@@ -41,15 +63,6 @@ def lu(matrix):
     u = copy(matrix)
     p = pivot(matrix)
     pa = p * matrix
-
-    #     for j in range(n):
-    #         for i in range(j + 1, n):
-    #             l[i][j] = u[i][j] / u[j][j]
-    #
-    #             for k in range(j + 1, n):
-    #                 u[i][k] = u[i][k] - l[i][j] * u[j][k]
-    #             u[i][j] = 0
-    #
 
     for j in range(n):
 
