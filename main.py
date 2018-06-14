@@ -5,11 +5,18 @@ from numericalanalysis.matrix import Matrix
 
 def main():
     try:
-        a = Matrix([[1, 1, 1], [2, 1, -1], [2, -1, 1]])
+        #a = Matrix([[1,2,1], [1,4,3], [0,0,5]])
+        #b = Matrix([[1, 2, 3]])
 
+        a = Matrix.generate((100, 100))
         l, u = lu_decomposition(a)
-        print(l)
-        print(u)
+
+        c = l * u
+
+        print("A: {}".format(a))
+        print("L: {}".format(l))
+        print("U: {}".format(u))
+        print("L x U = {}".format(c))
     except DimensionErrorException as e:
         print(e)
 

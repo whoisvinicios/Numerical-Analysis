@@ -1,3 +1,4 @@
+import random
 from itertools import chain
 
 from numericalanalysis.dimension_exception import DimensionErrorException
@@ -65,3 +66,10 @@ class Matrix:
                 if self._matrix[x][y] != other[x][y]:
                     return False
         return True
+
+    @staticmethod
+    def generate(shape):
+        if type(shape) != tuple:
+            raise TypeError("Must be a tuple")
+        m = [[random.random() for _ in range(shape[1])] for _ in range(shape[0])]
+        return Matrix(m)

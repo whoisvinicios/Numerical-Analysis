@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c972f3a3-2f20-4024-b81b-2eda4d42729a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numericalanalysis/linearalgebra.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/numericalanalysis/lu.py" beforeDir="false" afterPath="$PROJECT_DIR$/numericalanalysis/lu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numericalanalysis/matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/numericalanalysis/matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/lu_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/lu_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,27 +17,27 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_in_lu_test_py.coverage" NAME="Unittests in lu_test.py Coverage Results" MODIFIED="1527854019591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_matrix_operations_test_MatrixOperationsTest_test_matrix_dimension_error.coverage" NAME="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_dimension_error Coverage Results" MODIFIED="1527821977147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_lu_test_LUTest_test_x_lu_decomp.coverage" NAME="Unittests for lu_test.LUTest.test_x_lu_decomp Coverage Results" MODIFIED="1527854209842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_lu_test_LUTest_test_x_lu_decomp.coverage" NAME="Unittests for lu_test.LUTest.test_x_lu_decomp Coverage Results" MODIFIED="1529006796080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$a.coverage" NAME="a Coverage Results" MODIFIED="1528838853981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_lu_test_LUTest.coverage" NAME="Unittests for lu_test.LUTest Coverage Results" MODIFIED="1527854174341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_matrix_operations_test_MatrixOperationsTest.coverage" NAME="Unittests for matrix_operations_test.MatrixOperationsTest Coverage Results" MODIFIED="1527822125755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_lu_test_LUTest.coverage" NAME="Unittests for lu_test.LUTest Coverage Results" MODIFIED="1528999424681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1527854036729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$vector.coverage" NAME="vector Coverage Results" MODIFIED="1527726977817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numericalanalysis" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1528459653717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numericalanalysis" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$matrix_helper.coverage" NAME="matrix_helper Coverage Results" MODIFIED="1527855758554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/numericalanalysis" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_for_matrix_operations_test_MatrixOperationsTest_test_matrix_multiplication.coverage" NAME="Unittests for matrix_operations_test.MatrixOperationsTest.test_matrix_multiplication Coverage Results" MODIFIED="1527821194012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NumericalAnalysis$Unittests_in_matrix_operations_test_py.coverage" NAME="Unittests in matrix_operations_test.py Coverage Results" MODIFIED="1527854006168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/NumericalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1528898186898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NumericalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1529006923975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="matrix.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+            <state relative-caret-position="472">
+              <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,17 +46,20 @@
       <file leaf-file-name="linear_solver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/linear_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="45">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="20" selection-start-column="20" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -66,8 +67,8 @@
       <file leaf-file-name="lu.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/lu.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="912">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
               </folding>
@@ -78,8 +79,8 @@
       <file leaf-file-name="lu_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/lu_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -90,8 +91,8 @@
       <file leaf-file-name="matrix_helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="345">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -102,8 +103,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="255">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="e#0#73#0" expanded="true" />
               </folding>
@@ -153,15 +154,16 @@
         <option value="$PROJECT_DIR$/test/matrix_operations_test.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/dimension_exception.py" />
         <option value="$PROJECT_DIR$/linear_solver.py" />
-        <option value="$PROJECT_DIR$/test/lu_test.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/linearalgebra.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/linear_solver.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/vector.py" />
-        <option value="$PROJECT_DIR$/numericalanalysis/matrix.py" />
         <option value="$PROJECT_DIR$/a.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/numericalanalysis/lu.py" />
+        <option value="$PROJECT_DIR$/numericalanalysis/matrix_generator.py" />
+        <option value="$PROJECT_DIR$/test/lu_test.py" />
+        <option value="$PROJECT_DIR$/numericalanalysis/matrix.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -292,24 +294,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="matrix_helper" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for lu_test.LUTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="NumericalAnalysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/numericalanalysis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numericalanalysis/matrix_helper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;lu_test.LUTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for lu_test.LUTest.test_x_lu_decomp" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="NumericalAnalysis" />
@@ -326,19 +323,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests for lu_test.LUTest.test_x_lu_decomp" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.matrix_helper" />
       <item itemvalue="Python.matrix" />
       <item itemvalue="Python.a" />
+      <item itemvalue="Python tests.Unittests for lu_test.LUTest" />
+      <item itemvalue="Python tests.Unittests for lu_test.LUTest.test_x_lu_decomp" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Unittests for lu_test.LUTest.test_x_lu_decomp" />
+        <item itemvalue="Python tests.Unittests for lu_test.LUTest" />
         <item itemvalue="Python.a" />
         <item itemvalue="Python.matrix" />
-        <item itemvalue="Python.matrix_helper" />
-        <item itemvalue="Python tests.Unittests for lu_test.LUTest.test_x_lu_decomp" />
       </list>
     </recent_temporary>
   </component>
@@ -356,15 +353,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 52m 31s.xml">
-      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 54m 18s.xml">
-      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 54m 59s.xml">
-      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.01 at 08h 56m 14s.xml">
       <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
     </history-entry>
@@ -386,6 +374,15 @@
     <history-entry file="Unittests_in_test - 2018.06.01 at 08h 53m 56s.xml">
       <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_lu_test_LUTest - 2018.06.14 at 15h 03m 44s.xml">
+      <configuration name="Unittests for lu_test.LUTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lu_test_LUTest_test_x_lu_decomp - 2018.06.14 at 17h 04m 53s.xml">
+      <configuration name="Unittests for lu_test.LUTest.test_x_lu_decomp" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_lu_test_LUTest_test_x_lu_decomp - 2018.06.14 at 17h 06m 36s.xml">
+      <configuration name="Unittests for lu_test.LUTest.test_x_lu_decomp" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,18 +395,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32903227" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32903227" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2838828" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2905983" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -420,6 +417,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,13 +432,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/matrix_operations_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/numericalanalysis/linear_solver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -448,9 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/linearalgebra.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/linearalgebra.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -507,7 +496,7 @@
         <state relative-caret-position="1590">
           <caret line="108" column="32" lean-forward="true" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -526,9 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/linearalgebra.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/linearalgebra.py" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -585,7 +572,7 @@
         <state relative-caret-position="390">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,7 +647,7 @@
         <state relative-caret-position="300">
           <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -759,75 +746,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/lu_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/linearalgebra.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/lu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/linearalgebra.py" />
+    <entry file="file://$PROJECT_DIR$/a.py" />
     <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="345">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/linear_solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="45">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix_generator.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/lu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#0#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numericalanalysis/linear_solver.py">
+    <entry file="file://$PROJECT_DIR$/test/lu_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numericalanalysis/matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="20" selection-start-column="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
         <state>
           <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
