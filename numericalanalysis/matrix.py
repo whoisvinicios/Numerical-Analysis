@@ -68,8 +68,15 @@ class Matrix:
         return True
 
     @staticmethod
-    def generate(shape):
+    def generate_matrix(shape):
         if type(shape) != tuple:
             raise TypeError("Must be a tuple")
         m = [[random.random() for _ in range(shape[1])] for _ in range(shape[0])]
+        return Matrix(m)
+
+    @staticmethod
+    def generate_int_matrix(shape, minimum, maximum):
+        if type(shape) != tuple:
+            raise TypeError("Must be a tuple")
+        m = [[random.randint(minimum, maximum) for _ in range(shape[1])] for _ in range(shape[0])]
         return Matrix(m)

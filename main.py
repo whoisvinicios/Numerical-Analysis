@@ -8,7 +8,7 @@ def main():
         #a = Matrix([[1,2,1], [1,4,3], [0,0,5]])
         #b = Matrix([[1, 2, 3]])
 
-        a = Matrix.generate((100, 100))
+        a = Matrix.generate_matrix((100, 100), 0, 100)
         l, u = lu_decomposition(a)
 
         c = l * u
