@@ -15,5 +15,11 @@ class Vector:
     def __getitem__(self, key):
         return self._vector[key]
 
+    # def __setattr__(self, key, value):
+    #     self._vector[key] = value
+
+    def __len__(self):
+        return len(self._vector)
+
     def __eq__(self, other):
         pass
