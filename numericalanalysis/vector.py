@@ -10,7 +10,10 @@ class Vector:
 
     @property
     def vector(self):
-        return self._matrix[0]
+        return self._vector
+
+    def __getitem__(self, key):
+        return self._vector[key]
 
     def __eq__(self, other):
         pass
