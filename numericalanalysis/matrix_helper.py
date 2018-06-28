@@ -31,3 +31,19 @@ def pivot(matrix):
             identity_matrix.matrix[j] = identity_matrix.matrix[row]
             identity_matrix.matrix[row] = identity_matrix.matrix[j]
     return identity_matrix
+
+
+def print_system(a, b):
+    shape = a.shape
+    for x in range(shape[0]):
+        for y in range(shape[1]):
+            print("{}".format((a[x][y])), end= " ")
+        print("| {}".format(b[x]))
+
+
+def print_matrix(a):
+    shape = a.shape
+    for x in range(shape[0]):
+        for y in range(shape[1]):
+            print("{}".format((a[x][y])), end= " ")
+        print()

@@ -2,7 +2,6 @@ from numericalanalysis.dimension_exception import DimensionErrorException
 from numericalanalysis.matrix_helper import *
 
 """
-
 LU decomposition (LU is stands for "lower-upper") factors a matrix as the product of lower triangular matrix
 and a upper triangular matrix
 
