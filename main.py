@@ -8,10 +8,11 @@ from numericalanalysis.vector import Vector
 def main():
     try:
         a = Matrix([
-            [1, 4, 1],
-            [1, 4, 3],
-            [0, 0, 5]])
-        b = Vector([1, 2, 5])
+            [1, 2, 4, 4],
+            [1, 1, 1, 2],
+            [1, 2, 1, 1],
+            [0, 0, 2, 3]])
+        b = Vector([68, 24, 26, 32])
 
         # a = Matrix([[4, 1, 2, -1],
         #             [3, 6, -1, 2],
